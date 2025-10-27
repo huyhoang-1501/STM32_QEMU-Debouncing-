@@ -44,28 +44,22 @@ This project **emulates STM32F103 (Blue Pill)** on **QEMU** to demonstrate **pro
 sudo apt update
 sudo apt install -y qemu-system-arm gcc-arm-none-eabi netcat-openbsd make
 
-### 2. Clone & Enter Directory
 
+2. Clone & Enter Directory
 
-```bash
-git clone https://github.com/huyhoang-1501/Debouncing.git
-cd Debouncing
+git clone https://github.com/huyhoang-1501/STM32_QEMU-Debouncing-.git
+cd STM32_QEMU-Debouncing-
 
-### 3. Build & Run QEMU
+3. Build & Run QEMU
 
-
-```bash
 make flash
 QEMU starts with UART on localhost:1234
 
-### 4. Toggle LED (New Terminal)
+4. Toggle LED (New Terminal)
 
-```bash
 echo "P" | nc localhost 1234
 
----
-
-### Expected Output
+    Expected Output
 === DEBOUNCE TEST ===
 GÕ 'P' → TOGGLE LED 
 >>> TOGGLE (P)
@@ -77,7 +71,7 @@ Debounce delay: 20ms — LED toggles only after stable input!
 
 ---
 
-### File Structure
+File Structure
 
 Debouncing/
 ├── main.c              # Core: FSM, UART, SysTick, Vector Table
