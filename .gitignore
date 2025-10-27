@@ -1,0 +1,13 @@
+# Build artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.map
+
+# QEMU temp
+qemu-*.log
+
+# Editor
+.vscode/
+.DS_Store
