@@ -7,12 +7,10 @@
     <img src="https://img.shields.io/badge/Linux-Ready-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
   </p>
 ---
-  
-<div align="center">
-  <h1>STM32F1 Button Debounce (FSM + SysTick)</h1>
-  <p><strong>Professional debounce – No HAL – Non-blocking – QEMU Emulator</strong></p>
-</div>
-
+<p>
+    <STM32F1 Button Debounce (FSM + SysTick)>
+    <strong>Professional debounce – No HAL – Non-blocking – QEMU Emulator</strong>
+</p>
 ---
 
 ## Introduction
