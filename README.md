@@ -46,7 +46,7 @@ This project **emulates STM32F103 (Blue Pill)** on **QEMU** to demonstrate **pro
 
 ## Quick Start (Linux)
 
-### 1. Install Dependencies
+###  Install Dependencies
 ```bash
 sudo apt update
 sudo apt install -y qemu-system-arm gcc-arm-none-eabi netcat-openbsd make
