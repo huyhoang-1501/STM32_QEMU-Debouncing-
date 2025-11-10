@@ -1,9 +1,11 @@
-
-![C](https://img.shields.io/badge/C-00599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-F103-000000.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![QEMU](https://img.shields.io/badge/QEMU-Emulator-FF6600.svg?style=for-the-badge&logo=qemu&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Ready-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
-
+<div align="center">
+  <h1>STM32F103C8T6 Simulate on QEMU</h1>
+  <p>
+    <img src="https://img.shields.io/badge/C-00599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C Language">
+    <img src="https://img.shields.io/badge/STM32-F103-000000.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32">
+    <img src="https://img.shields.io/badge/QEMU-Emulator-FF6600.svg?style=for-the-badge&logo=qemu&logoColor=white" alt="QEMU">
+    <img src="https://img.shields.io/badge/Linux-Ready-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  </p>
 <div align="center">
   <h1>STM32F1 Button Debounce (FSM + SysTick)</h1>
   <p><strong>Professional debounce – No HAL – Non-blocking – QEMU Emulator</strong></p>
