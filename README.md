@@ -1,20 +1,25 @@
 <div align="center">
   <h1>STM32F103C8T6 Simulate on QEMU</h1>
+
   <p>
     <img src="https://img.shields.io/badge/C-00599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C Language">
     <img src="https://img.shields.io/badge/STM32-F103-000000.svg?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32">
     <img src="https://img.shields.io/badge/QEMU-Emulator-FF6600.svg?style=for-the-badge&logo=qemu&logoColor=white" alt="QEMU">
     <img src="https://img.shields.io/badge/Linux-Ready-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
   </p>
----
-<p>
-    <STM32F1 Button Debounce (FSM + SysTick)>
+
+  <p><br></p>
+
+  <p>
     <strong>Professional debounce – No HAL – Non-blocking – QEMU Emulator</strong>
-</p>
+  </p>
+
+  <p><br></p>
+</div>
+
 ---
 
 ## Introduction
-
 This project **emulates STM32F103 (Blue Pill)** on **QEMU** to demonstrate **professional button debouncing** using:
 
 - **4-state Finite State Machine (FSM)**
@@ -28,20 +33,20 @@ This project **emulates STM32F103 (Blue Pill)** on **QEMU** to demonstrate **pro
 
 ## Features
 
-| Feature              | Description |
-|----------------------|-----------|
+| Feature | Description |
+|--------|-------------|
 | **Dual-edge debounce** | Filters noise on **press & release** |
-| **Single callback**    | `on_press()` called **once** per stable press |
-| **Non-blocking CPU**   | `while(1)` empty → safe for `__WFI()` |
-| **QEMU STM32-P103**    | Full GPIO + UART + SysTick emulation |
-| **UART toggle**        | Send `'P'` → toggle LED |
-| **20ms debounce**      | Configurable via `DEBOUNCE_MS` |
+| **Single callback** | `on_press()` called **once** per stable press |
+| **Non-blocking CPU** | `while(1)` empty → safe for `__WFI()` |
+| **QEMU STM32-P103** | Full GPIO + UART + SysTick emulation |
+| **UART toggle** | Send `'P'` → toggle LED |
+| **20ms debounce** | Configurable via `DEBOUNCE_MS` |
 
 ---
 
 ## Quick Start (Linux)
-### Install Dependencies
 
+### 1. Install Dependencies
 ```bash
 sudo apt update
 sudo apt install -y qemu-system-arm gcc-arm-none-eabi netcat-openbsd make
